@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MyShop — Full-Stack E-commerce Website
+
+MyShop is an e-commerce web application built with Next.js. It allows users to explore products, search for items, manage a shopping cart, and view product details and reviews.
+
+## Features
+
+- Product listing and search
+- Shopping cart with quantity controls
+- Remove items from the cart
+- Automatic total price calculation
+- Cart persistence using localStorage
+- Individual product detail pages
+- Product reviews powered by Supabase
+- Deployed using Vercel
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Supabase
+- localStorage
+- Vercel
+
+## Live Demo
+
+[https://my-shop-nine-ashen.vercel.app/](https://my-shop-nine-ashen.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Clone the repository:
+```
+git clone https://github.com/nazmulhasan02/my-shop.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
+```
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Run the development server:
+```
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Future Improvements
+- Database-driven product listings
+- Complete checkout functionality
+- User authentication
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Md. Nazmul Hasan | Aspiring Full-Stack Web Developer
