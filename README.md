@@ -1,6 +1,11 @@
 # MyShop — Full-Stack E-commerce Website
 
 MyShop is an e-commerce web application built with Next.js. It allows users to explore products, search for items, manage a shopping cart, and view product details and reviews.
+## Screenshots
+
+### Homepage
+
+![MyShop Homepage](screenshots/screenshot_homepage.png)
 
 ## Features
 
